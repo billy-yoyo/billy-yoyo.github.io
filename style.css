@@ -1,0 +1,67 @@
+
+.lock {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+.filler {
+    flex: 1;
+
+    transition: flex 1s;
+}
+
+.filler.collapse {
+    flex: 0;
+}
+
+.rhs {
+    align-self: end;
+    align-items: flex-end;
+}
+
+.reading {
+    display: flex;
+    flex-direction: row;
+    min-height: 25px;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    background: black;
+}
+
+.controls {
+    padding: 20px;
+}
+
+.controls button {
+    margin-right: 5px;
+}
+
+.test-lock {
+    margin-left: 15px;
+}
+
+.success {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.code {
+    font-size: 2rem;
+    padding: 30px;
+}
